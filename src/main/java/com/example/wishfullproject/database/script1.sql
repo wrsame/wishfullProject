@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS users
     birthday    VARCHAR(50),
     phoneNumber VARCHAR(50),
     userID          int,
-    PRIMARY KEY (userID)
+    PRIMARY KEY (email)
 
 );
 
