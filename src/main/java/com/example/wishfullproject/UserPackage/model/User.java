@@ -2,7 +2,9 @@ package com.example.wishfullproject.UserPackage.model;
 
 public class User {
 
-    private String name;
+    private String firstname;
+
+    private String surname;
     private String email;
     private String password;
     private String birthday;
@@ -10,8 +12,9 @@ public class User {
     private int userID;
 
     //Der skal creates en tabel i databsen, hvergang der creates en ny bruger
-    public User(String name, String email, String password, String birthday, String phoneNumber, int id) {
-        this.name = name;
+    public User(String firstname, String surname, String email, String password, String birthday, String phoneNumber, int id) {
+        this.firstname = firstname;
+        this.surname = surname;
         this.email = email;
         this.password = password;
         this.birthday = birthday;
@@ -19,14 +22,21 @@ public class User {
         this.userID = id;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstname() {
+        return firstname;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFirstname(String name) {
+        this.firstname = name;
     }
 
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String name) {
+        this.surname = name;
+    }
     public String getEmail() {
         return email;
     }
