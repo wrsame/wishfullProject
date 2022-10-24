@@ -1,17 +1,84 @@
-body{
-    background-color: #bfaaaf;
+body {
+    background-color: white;
     font: normal 15px "Avenir Next";
 }
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 { <!-- "Wishfull" -->
+    font-family: 'Crete Round', serif;
+    font-weight: normal;
+    color: #130f11;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: #130f11;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #130f11;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: #130f11;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: #130f11;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #130f11;
+}
+a:hover {
+    color: #1b227b;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: #130f11;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+
 header {
     height: 120px;
 }
 header h1 {
     float: left;
     margin-top: 32px;
+
 }
 header h1 .color {
-    color: #02b8dd;
+    color: #1b227b;
 }
+
+
 header nav {
     float: right;
 }
@@ -19,4 +86,70 @@ header nav ul li {
     float: left;
     display: inline-block;
     margin-top: 50px;
+}
+header nav ul li a {
+    color: #130f11;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+
+
+
+#img-front {
+    height: 580px;
+    padding-top: 1px;
+    margin: 0 auto 20px auto;
+}
+#img-front h2 {
+    margin: 180px 0 40px 0;
+}
+
+
+.button-1 {
+    display: block;
+    text-align: center;
+    background: #1b227b;
+    border-radius: 3px;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-1:hover {
+    background-color: #4e5ebd;
+    color: #fff;
+}
+
+
+footer {
+    padding: 60px 0;
+    background-color: #f8fafa;
+}
+#footer-info {
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+}
+#footer-links {
+    width: 520px;
+    float: right;
+}
+#footer-links ul {
+    width: 150px;
+    float: right;
+    margin-left: 20px;
+}
+#footer-links ul li {
+    margin: 10px 0;
+}
+
+#img-logo{
+    margin-left: 10px;
+
+
+
 }
