@@ -6,14 +6,17 @@ p {
     line-height: 20px;
     margin-bottom: 20px;
 }
-h1 { <!-- "Wishfull" -->
+
+
+h1 { /*"Wishfull overskift" */
     font-family: 'Crete Round', serif;
     font-weight: normal;
     color: #130f11;
     font-size: 45px;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
-h2 {
+h2 { /*  Welcome to Wishfull skift CSS */
     font-weight: 300;
     color: #130f11;
     font-size: 55px;
@@ -21,7 +24,7 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
 }
-h3 {
+h3 { /*  Heard Enough skift CSS   */
     font-size: 30px;
     color: #130f11;
     font-weight: bold;
@@ -29,19 +32,28 @@ h3 {
     text-align: center;
     margin-bottom: 20px;
 }
-h4 {
+h4 { /*  Features  skift CSS  */
     font-size: 24px;
     color: #130f11;
-    font-weight: bold;
+    font-weight: normal;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-h5 {
+h5 { /*  FOOTER skift CSS */
     font-size: 15px;
     color: #130f11;
     font-weight: bold;
     text-transform: uppercase;
 }
+
+
+#img-logo{
+    float: left;
+    alignment: left;
+    margin-top: 20px;
+
+}
+
 a {
     text-decoration: none;
     color: #130f11;
@@ -63,9 +75,11 @@ small {
 .wrapper {
     margin: 0 auto;
     padding: 0 10px;
-    width: 940px;
+    width: 1000px;
 }
 
+
+/*   MENUBAR    */
 header {
     height: 120px;
 }
@@ -95,7 +109,7 @@ header nav ul li a {
     margin-right: 20px;
 }
 
-
+/*  WISHFULL */
 
 #img-front {
     height: 580px;
@@ -125,14 +139,20 @@ header nav ul li a {
 }
 
 
+
+
+/*  FOOTER CSS   */
 footer {
-    padding: 60px 0;
     background-color: #f8fafa;
+    padding: 0;
+
+
 }
 #footer-info {
     width: 380px;
     float: left;
     margin-top: 10px;
+
 }
 #footer-links {
     width: 520px;
@@ -147,9 +167,56 @@ footer {
     margin: 10px 0;
 }
 
-#img-logo{
-    margin-left: 10px;
+
+#features ul {
+    margin: 80px 0;
+}
+#features ul li {
+    width: 300px;
+    padding-top: 140px;
+    float: left;
+    text-align: center;
+}
+#features ul li.feature-1 {
+    background: url('../static/pick.png') no-repeat top center;
+}
+#features ul li.feature-2 {
+    background: url('../static/wish-list1.png') no-repeat top center;
+}
+#features ul li.feature-3 {
+    background: url('../static/share.png') no-repeat top center;
+}
 
 
 
+
+
+/* mere og last Action CSS  */
+
+#lastAction {
+    padding: 60px 0;
+    text-align: center;
+}
+#lastAction h3 {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 1px solid #02b8dd;
+    padding: 0 0 20px 0;
+    font-weight: normal;
+}
+.button-2 {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #02b8dd;
+    color: #02b8dd;
+    border-radius: 3px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.button-2:hover {
+    background-color: #02b8dd;
+    color: #fff;
 }
