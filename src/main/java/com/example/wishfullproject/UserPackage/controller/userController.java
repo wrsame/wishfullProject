@@ -3,7 +3,7 @@ package com.example.wishfullproject.UserPackage.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-public class userController {
+public class userController{
     @Controller
     public static class UserController {
 
