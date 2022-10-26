@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="menubar.css">
-    <link rel="stylesheet" href="AllWishlists.css">
+    <link rel="stylesheet" href="Wishlist.css">
+    <link rel="stylesheet" href="AddWishlistPopup.css">
     <title>Wishfull</title>
-</head>
 
+</head>
 <body>
 <header>
     <div class="wrapper">
@@ -22,23 +23,20 @@
         </nav>
     </div>
 </header>
-<div class="line-1"></div>
-<div class="line-2"></div>
-
-
-
 <div class="wrapper">
 
-    <h2>Your wishlists</h2>
+    <h2>Wishlist Title</h2>
 
-    <button onclick="window.location='/addwishlist';"> + New wishlist</button>
+    <button onclick="window.location='/';"> + Add wish</button>
     <br>
 
     <div onclick="window.location='/wishlist';" class="card">
         <div class="cardLogo">
             <img src="logo.png" alt="Logo" width="150px">
         </div>
-        <h3>Title</h3>
+        <div class="info-container">
+            <h3>Title</h3>
+        </div>
     </div>
 
     <div onclick="window.location='/wishlist';" class="card">
@@ -64,6 +62,30 @@
 
 </div>
 
+
+<div class="bg">
+    <div class="popup-box">
+        <img src="gavebox.png" width="100px">
+        <p id="newList">New Wishlist</p>
+
+        <div class="close">
+            <a href="/wishlist">+</a>
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="Title">
+            <br>
+            <br>
+            <br>
+            <a href="/wishlist" class="CreateButton">Add</a>
+
+
+        </form>
+    </div>
+
+
 </div>
+
+
 </body>
 </html>

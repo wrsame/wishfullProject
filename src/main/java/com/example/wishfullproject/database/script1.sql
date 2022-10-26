@@ -12,14 +12,14 @@ CREATE TABLE IF NOT EXISTS users
     phoneNumber VARCHAR(50),
     userID          int,
     PRIMARY KEY (email)
-
 );
 
-
 INSERT INTO users(firstName, surName, email, password, birthday, phoneNumber, userID)
-VALUES ('Mahi', 'Yoga','Mahiyoga@gmail.com','Mahi123','16/11/2002', 20908070,1000 );
+VALUES ('Mahi', 'Yoga','m@gmail.com','mahi123','16/11/2002', 20908070,1000 );
 
 SELECT * FROM users;
+
+
 
 
 
