@@ -1,72 +1,10 @@
-body {
-    background-color: white;
-    font: normal 15px "Avenir Next";
-}
-/*  Menu bar */
-a {
-    text-decoration: none;
-    color: #130f11;
-}
-a:hover {
-    color: #1b227b;
-}
-strong {
-    font-weight: bold;
-}
-small {
-    font-size: 13px;
-    color: #130f11;
-    font-style: italic;
-}
-.clear {
-    clear: both;
-}
-
-h1 { /*"Wishfull overskift" */
-    margin-left: 40px;
-    font-family: 'Crete Round', serif;
-    font-weight: normal;
-    color: #130f11;
-    font-size: 45px;
-    margin-bottom: 20px;
-    margin-left: 10px;
+h1{
+    font-family: "Avenir Next";
 }
 
 #img-logo{
-    margin-left: 20px;
     float: left;
     alignment: left;
     margin-top: 18px;
 
 }
-
-
-/*  Menu bar */
-header {
-    height: 120px;
-}
-header h1 {
-    float: left;
-    margin-top: 32px;
-
-}
-header h1 .color {
-    color: #1b227b;
-}
-
-header nav {
-    float: right;
-}
-header nav ul li {
-    float: left;
-    display: inline-block;
-    margin-top: 45px;
-}
-header nav ul li a {
-    color: #130f11;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: block;
-    margin-right: 20px;
-}
-

@@ -13,10 +13,7 @@ public class homeController {
   }
 
 
-  @GetMapping("profile")
-  public String profilepage(){
-    return "Profile";
-  }
-
-
 }
+
+
+

@@ -11,13 +11,10 @@ public class userController{
         public String login(){
             return "Login";
         }
-
         @GetMapping("/signup")
-        public String signup(){
+        public String signup() {
             return "SignUp";
         }
-
-
 
         @GetMapping("/wishlists")
         public String viewWishlists(){
@@ -28,6 +25,13 @@ public class userController{
         @GetMapping("/addwishlist")
         public String addWishList(){
             return "AddWishlist";
+        }
+
+        @GetMapping("profile")
+        public String profilepage(){
+            return "Profile";
+
+
         }
 
     }
